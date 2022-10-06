@@ -1,0 +1,196 @@
+@media only screen and (min-width:1020px) {
+
+    .main {
+        position:relative;
+        width:1440px;
+        height:800px;
+        margin:25px auto;
+        background:hsl(257, 40%, 49%);
+        background-image:url('images/bg-desktop.svg')
+    }
+
+    .logo {
+        position:absolute;
+        height:50px;
+        left:70px;
+        top:50px;
+    }
+
+    .illustration {
+        position:absolute;
+        left:70px;
+        top:200px;
+    }
+
+    .text {
+        position:absolute;
+        width:500px;
+        height:300px;
+        right:95px;
+        top:250px;
+    }
+
+    .heading {
+        position:absolute;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:42px;
+        margin:0;
+        padding:0;
+        color:white;
+    }
+
+    .description {
+        position:absolute;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:16px;
+        line-height:28px;
+        top:150px;
+        margin:0;
+        padding:0;
+        color:white;
+    }
+
+    .btn {
+        position:absolute;
+        width:200px;
+        height:60px;
+        top:260px;
+        left:0;
+        border:none;
+        border-radius:28px;
+        box-shadow: 4px 4px 10px 1px rgba(59, 43, 100, 1);
+        font-family: 'Open Sans', sans-serif;
+        font-weight:400;
+        font-size:18px;
+        color:hsl(257, 40%, 49%);
+    }
+
+    .btn:hover {
+        color:white;
+        background:hsl(300, 69%, 71%);
+    }
+
+    .fb {
+        position:absolute;
+        right:210px;
+        bottom:50px;
+        height:42px;
+    }
+
+    .twitter {
+        position:absolute;
+        right:150px;
+        bottom:50px;
+        height:40px;
+    }
+
+    .insta {
+        position:absolute;
+        right:90px;
+        bottom:50px;
+        height:40px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .main {
+        position:relative;
+        width:375px;
+        height:800px;
+        margin:auto;
+        background:hsl(257, 40%, 49%);
+        background-image:url('images/bg-mobile.svg');
+        background-repeat:no-repeat;
+    }
+
+    .logo {
+        position:absolute;
+        height:30px;
+        left:35px;
+        top:35px;
+    }
+
+    .illustration {
+        position:absolute;
+        height:220px;
+        top:110px;
+        left:35px;
+    }
+
+    .text {
+        position:absolute;
+        width:300px;
+        height:300px;
+        margin:auto;
+        left:35px;
+        top:390px;
+    }
+
+    .heading {
+        position:absolute;
+        font-family: 'Poppins', sans-serif;
+        font-weight:600;
+        font-size:25px;
+        text-align:center;
+        margin:auto;
+        padding:0;
+        color:white;
+    }
+
+      .description {
+        position:absolute;
+        width:320px;
+        font-family: 'Poppins', sans-serif;
+        font-weight:400;
+        font-size:15.5px;
+        text-align:center;
+        top:100px;
+        margin:0 auto;
+        padding:0;
+        color:white;
+    }
+
+     .btn {
+        position:absolute;
+        width:200px;
+        height:40px;
+        top:240px;
+        left:62px;
+        border:none;
+        border-radius:28px;
+        box-shadow: 4px 4px 10px 1px rgba(59, 43, 100, 1);
+        font-family: 'Open Sans', sans-serif;
+        font-weight:400;
+        font-size:12px;
+        color:hsl(257, 40%, 49%);
+    }
+
+    .btn:hover {
+        color:white;
+        background:hsl(300, 69%, 71%);
+    }
+
+    .fb {
+        position:absolute;
+        bottom:38px;
+        left:137px;
+        height:34px;
+        margin:0;
+    }
+
+    .twitter {
+        position:absolute;
+        left:178px;
+        bottom:40px;
+        height:30px;
+    }
+
+    .insta {
+        position:absolute;
+        left:217px;
+        bottom:40px;
+        height:30px;
+    }
+}
